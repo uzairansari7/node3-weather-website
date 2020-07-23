@@ -1,0 +1,19 @@
+doctype html
+html
+ head
+  title #{title}
+  link(rel='icon' , href='/img/weather.png')
+  link(rel='stylesheet' , href='/css/styles.css')
+ body 
+  div(class='main')
+   header
+    h1 #{title}
+    a(href='/') Weather 
+    a(href='about') About 
+    a(href='help') Help 
+   block content
+  footer
+   p Created by @#{name}
+  block script 
+   
+ 
