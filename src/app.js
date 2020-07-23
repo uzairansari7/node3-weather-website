@@ -1,6 +1,7 @@
 const path = require('path')
 const express = require('express')
 const app = express()
+const port = process.env.PORT || 3000
 const pug = require('pug')
 const geocode = require('./utils/geocode.js')
 const forecast = require('./utils/forecast.js')
@@ -98,7 +99,7 @@ app.get('*' , (req,res) =>
     res.render('404' , {title : '404', message : 'page not found!',name:'Uzair Ansari'})
 })
 
-app.listen(5000 , ()=>
+app.listen(port , ()=>
 {
-    console.log('server is up on port 3000.')
+    console.log('server is up on port '+port)
 })
