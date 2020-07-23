@@ -5,15 +5,17 @@
   "main": "index.js",
   "dependencies": {
     "chalk": "^4.1.0",
+    "express": "^4.17.1",
     "hbs": "^4.1.1",
     "pug": "^3.0.0",
+    "request": "^2.88.2",
     "validator": "^13.1.1",
     "yargs": "^15.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start":"node src/app.js"
-    },
+    "start": "node src/app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uzairansari7/node3-weather-website.git"
