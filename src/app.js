@@ -10,7 +10,7 @@ const forecast = require('./utils/forecast.js')
 const publicdirectorypath = path.join(__dirname,'../public')
 console.log(publicdirectorypath)
 
-//setup handalbar engine and view location
+//setup pug engine and view location
 app.set('view engine' , 'pug')
 
 
